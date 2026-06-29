@@ -5,11 +5,11 @@ function Header() {
     <>
       <header className="header">
         <nav className="navigation">
-          <li className>
-            <img src={Logo} alt="logo of CMOList" class="logo" />
+          <li>
+            <img src={Logo} alt="logo of CMOList" className="logo" />
           </li>
           <li>
-            <a href="#" target="_blank" class="sign-in-btn">
+            <a href="#" target="_blank" className="sign-in-btn">
               Sign in
             </a>
           </li>
