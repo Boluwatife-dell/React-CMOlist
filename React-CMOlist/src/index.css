@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", Arial, sans-serif;
+  background: #e5e5e5;
+}
+
 .header {
   background-color: #ffff;
   padding: 0 50px;
@@ -17,4 +28,50 @@
 
 .logo {
   width: 100px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.hero-section {
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 2rem;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.hero-details {
+  background-color: #fafafa;
+  width: 110%;
+  padding-left: 50px;
+}
+
+.hero-title {
+  margin-bottom: 9px;
+  line-height: 1.2;
+}
+.hero-subtitle {
+  margin-bottom: 28px;
+}
+
+.membership-btn {
+  background-color: #2a62ff;
+  color: #fff;
+  margin-bottom: 9px;
+  padding: 9px 16px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.illustration-img {
+  width: 90%;
+  background-color: #fafafa;
 }
