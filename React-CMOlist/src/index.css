@@ -39,6 +39,20 @@ html {
   width: 100px;
 }
 
+.sign-in-btn {
+  color: #2a62ff;
+  border-radius: 50px;
+  border: 1px solid #2a62ff;
+  cursor: pointer;
+  padding: 4px 16px;
+  transition: border 0.2s ease;
+}
+
+.sign-in-btn:hover {
+  color: hsla(224, 100%, 58%, 0.8);
+  border: 1px solid hsla(224, 100%, 58%, 0.8);
+}
+
 a {
   cursor: pointer;
   text-decoration: none;
@@ -78,6 +92,10 @@ a {
   border: none;
   border-radius: 50px;
   cursor: pointer;
+}
+
+.membership-btn:hover {
+  background-color: #2a63ffee;
 }
 
 .illustration-img {
@@ -177,6 +195,10 @@ a {
   color: #888;
 }
 
+.footer-socials a ion-icon:hover {
+  color: #888888c9;
+}
+
 .footer-links {
   display: flex;
   align-items: center;
@@ -190,4 +212,8 @@ a {
 .footer-links li a {
   cursor: pointer;
   color: #fff;
+}
+
+.footer-links li a:hover {
+  color: #ffffffe1;
 }

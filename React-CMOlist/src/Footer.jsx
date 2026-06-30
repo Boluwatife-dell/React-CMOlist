@@ -1,9 +1,11 @@
 function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <>
       <div className="footer-section">
         <div className="footer-content">
-          <p>&copy; 2026 CMOList, inc</p>
+          <p>&copy; {currentYear} CMOList, inc</p>
           <div className="footer-socials">
             <a href="#">
               <ion-icon name="logo-x"></ion-icon>
