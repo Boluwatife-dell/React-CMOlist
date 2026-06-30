@@ -1,7 +1,8 @@
 import "./App.css";
-import FeaturedSection from "./FeaturedSection.jsx";
 import Header from "./Header.jsx";
 import HeroSection from "./HeroSection.jsx";
+import FeaturedSection from "./FeaturedSection.jsx";
+import BenefitSection from "./BenefitSection.jsx";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <HeroSection />
       <FeaturedSection />
+      <BenefitSection />
     </>
   );
 }

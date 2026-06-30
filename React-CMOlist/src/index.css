@@ -9,6 +9,15 @@ body {
   background: #e5e5e5;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .header {
   background-color: #ffff;
   padding: 0 50px;
@@ -44,12 +53,12 @@ a {
   padding: 2rem;
   font-size: 24px;
   font-weight: 600;
-  line-height: 1.6;
+
+  line-height: 1.4;
 }
 
 .hero-details {
   background-color: #fafafa;
-  width: 110%;
   padding-left: 50px;
 }
 
@@ -92,11 +101,53 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin: 0 auto; */
 }
 
 .featured-img {
   width: 120px;
   height: auto;
   object-fit: contain;
+}
+
+.benefit-section {
+  padding: 3rem 0 6rem 0;
+}
+.benefit-title {
+  line-height: 1.4;
+  font-weight: 500;
+  font-size: 23px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.benefit-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.benefit-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px #182d4c1a;
+  max-width: 400px;
+  padding: 48px 16px;
+}
+
+.benefit-card-icon {
+  width: 48px;
+  margin-bottom: 15px;
+}
+
+.benefit-card-title {
+  margin-bottom: 12px;
+}
+.benefit-card-subtitle {
+  color: #676767;
+  margin-bottom: 10px;
 }
