@@ -151,3 +151,43 @@ a {
   color: #676767;
   margin-bottom: 10px;
 }
+
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2e3469;
+  min-height: 80px;
+  padding: 20px 40px;
+  color: #888;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer-socials a ion-icon {
+  color: #888;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-links li {
+  list-style: none;
+}
+
+.footer-links li a {
+  cursor: pointer;
+  color: #fff;
+}

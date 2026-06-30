@@ -3,6 +3,7 @@ import Header from "./Header.jsx";
 import HeroSection from "./HeroSection.jsx";
 import FeaturedSection from "./FeaturedSection.jsx";
 import BenefitSection from "./BenefitSection.jsx";
+import Footer from "./Footer.jsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <HeroSection />
       <FeaturedSection />
       <BenefitSection />
+      <Footer />
     </>
   );
 }
